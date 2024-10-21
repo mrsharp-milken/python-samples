@@ -1,15 +1,26 @@
 import turtle
+screen = turtle.Screen()
 tina = turtle.Turtle()
 tina.shape('turtle')
 turtle.colormode(255)
 
-points = 6
+points = screen.textinput("Input", "How many points on the star? (no evens)")
+# make points an integer
+points = int(points)
 
-# for i in range(0, points):
-#     tina.forward(100)
-#     tina.left(180-180/points)
-# 
-# tina.forward(100)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 for i in range(0, points):
     tina.forward(40)
@@ -18,5 +29,4 @@ for i in range(0, points):
     tina.right(180-180/points)
     tina.left(360/points)
 
-tina.forward(100)
 turtle.done()
