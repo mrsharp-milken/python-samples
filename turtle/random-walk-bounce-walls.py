@@ -12,6 +12,17 @@ for i in range(1000):
         tina.right(90)
     else:
         tina.left(90)
+        
+    x, y = tina.position()
+    
+    if y > 350:
+        tina.right(180)
+    if y < -350:
+        tina.right(180)
+    if x > 400:
+        tina.right(180)
+    if x < -400:
+        tina.right(180)
     
 
 turtle.done()

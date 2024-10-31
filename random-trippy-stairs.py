@@ -8,11 +8,12 @@ tina.goto(-300, 300)
 tina.down()
 
 for i in range(30):
-    distance = random.randint(20, 50) # Choose a random number between 20-50
+    distance = random.randint(20, 80) # Choose a random number between 20-50
     tina.forward(distance)
 
     tina.right(90)
     
+#     distance = random.randint(20, 80) # Choose a random number between 20-50
     tina.forward(distance)
     
     tina.left(90)
