@@ -16,13 +16,13 @@ for i in range(1000):
     x, y = tina.position()
     
     if y > 350:
-        tina.right(180)
+        tina.setheading(270)
     if y < -350:
-        tina.right(180)
+        tina.setheading(90)
     if x > 400:
-        tina.right(180)
+        tina.setheading(0)
     if x < -400:
-        tina.right(180)
+        tina.setheading(180)
     
 
 turtle.done()
