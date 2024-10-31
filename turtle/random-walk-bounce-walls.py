@@ -20,9 +20,9 @@ for i in range(1000):
     if y < -350:
         tina.setheading(90)
     if x > 400:
-        tina.setheading(0)
-    if x < -400:
         tina.setheading(180)
+    if x < -400:
+        tina.setheading(0)
     
 
 turtle.done()
