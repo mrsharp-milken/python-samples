@@ -48,7 +48,7 @@ key_pressed = 1
 
 # In a loop, use trackbars to adjust the filter.
 # Loop ends once the Escape key is pressed.
-while (key_pressed != 27):
+while key_pressed != 27:
 
     # Capture one frame (image) of video, save the data in two variables.
     # The second variable, frame, contains the image data.
@@ -96,6 +96,7 @@ while (key_pressed != 27):
     
     
     # NOTE - Uncomment this once you think your C2 filter works
+    # Show each color filter combined together in one video
     # cv2.imshow("Combined", combined)
     
     # Wait 40 milliseconds for a key to be pressed.
