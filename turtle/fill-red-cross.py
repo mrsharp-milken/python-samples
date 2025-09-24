@@ -10,7 +10,7 @@ tina.color('red')
 
 tina.begin_fill()
 
-# draw square
+# draw cross
 for i in range(4):
     tina.forward(200)
     tina.circle(50, 180)
