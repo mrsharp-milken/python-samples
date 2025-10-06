@@ -1,6 +1,6 @@
 from playsound import playsound
 
-# MacOSmust pip install playsound==1.2.2 PyObjC
+# MacOS must pip install playsound==1.2.2 PyObjC
 # Windows should just need to pip install playsound
 
 # A .wav file is a file that contains audio data
